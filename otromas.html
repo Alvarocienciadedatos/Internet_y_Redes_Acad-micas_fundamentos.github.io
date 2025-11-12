@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Mental: Fundamentos del Internet y Servicios que Ofrece</title>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            background: radial-gradient(circle at 20% 30%, #0b0c10, #1f2833);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        /* Tarjeta de Presentación */
+        .presentacion {
+            background-color: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 14px;
+            width: 80%;
+            max-width: 700px;
+            margin: 40px auto 10px auto;
+            padding: 25px 30px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .presentacion h2 {
+            color: #66fcf1;
+            margin-bottom: 10px;
+            font-size: 1.4em;
+        }
+
+        .presentacion p {
+            margin: 6px 0;
+            color: #c5c6c7;
+            font-size: 1rem;
+        }
+
+        .presentacion .fecha {
+            margin-top: 10px;
+            color: #45a29e;
+            font-style: italic;
+        }
+
+        h1 {
+            text-align: center;
+            color: #66fcf1;
+            padding: 1em 0 0.3em;
+            font-size: 1.8em;
+        }
+
+        .mapa {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 40px;
+            padding: 40px;
+        }
+
+        .nodo {
+            background-color: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 20px;
+            width: 320px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s;
+        }
+
+        .nodo:hover {
+            transform: translateY(-6px);
+        }
+
+        .nodo h2 {
+            text-align: center;
+            color: #45a29e;
+            margin-bottom: 15px;
+        }
+
+        .subnodo {
+            margin-left: 10px;
+            border-left: 2px solid #45a29e;
+            padding-left: 12px;
+            margin-top: 10px;
+        }
+
+        .subnodo h3 {
+            color: #66fcf1;
+            font-size: 1.05em;
+            margin-bottom: 5px;
+        }
+
+        .subnodo ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .subnodo li {
+            color: #c5c6c7;
+            margin-bottom: 6px;
+            line-height: 1.5;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5em;
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 900px) {
+            .nodo {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Presentación Institucional -->
+    <section class="presentacion">
+        <h2>Universidad Abierta Para Adultos (UAPA)</h2>
+        <p><strong>Participante:</strong> Alvaro Manuel Rodríguez Cruz</p>
+        <p><strong>Matrícula:</strong> 100093277</p>
+        <p><strong>Asignatura:</strong> Internet y Redes Académicas</p>
+        <p class="fecha"><strong>Fecha:</strong> 11 / 11 / 2025</p>
+    </section>
+
+    <!-- Título del Mapa Mental -->
+    <h1>🌍 Fundamentos del Internet y Servicios que Ofrece</h1>
+
+    <!-- Contenido del Mapa -->
+    <section class="mapa">
+        <!-- Fundamentos -->
+        <div class="nodo">
+            <h2>🧩 Fundamentos del Internet</h2>
+            <div class="subnodo">
+                <h3>⚙️ Protocolos (TCP/IP)</h3>
+                <ul>
+                    <li>🧭 TCP garantiza transmisión confiable de datos.</li>
+                    <li>🌐 IP define dirección y enrutamiento de paquetes.</li>
+                    <li>🔒 DNS traduce dominios a direcciones IP.</li>
+                    <li>📡 HTTP/HTTPS posibilita acceso seguro a la web.</li>
+                </ul>
+            </div>
+
+            <div class="subnodo">
+                <h3>🖧 Infraestructura</h3>
+                <ul>
+                    <li>🔌 Routers dirigen el tráfico de datos.</li>
+                    <li>🗄️ Servidores almacenan y distribuyen información.</li>
+                    <li>🧵 Cables de fibra óptica forman la columna vertebral del Internet.</li>
+                    <li>📶 Redes inalámbricas amplían la conectividad global (Wi-Fi, 5G).</li>
+                </ul>
+            </div>
+
+            <div class="subnodo">
+                <h3>💻 Arquitectura Cliente-Servidor</h3>
+                <ul>
+                    <li>👨‍💻 Cliente solicita servicios (navegadores, apps).</li>
+                    <li>🖥️ Servidor responde a las peticiones.</li>
+                    <li>🔁 Interacción dinámica: solicitud ↔ respuesta.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Cultura -->
+        <div class="nodo">
+            <h2>🌐 Cultura y Filosofía de Internet</h2>
+            <div class="subnodo">
+                <h3>🛰️ Ciberespacio</h3>
+                <ul>
+                    <li>💬 Espacio virtual de interacción y comunicación global.</li>
+                    <li>🧠 Extensión cognitiva y social del ser humano.</li>
+                </ul>
+            </div>
+
+            <div class="subnodo">
+                <h3>⚖️ Neutralidad de la Red</h3>
+                <ul>
+                    <li>⚙️ Garantiza igualdad en acceso y tráfico de datos.</li>
+                    <li>🚫 Evita priorización de contenidos.</li>
+                    <li>🧩 Fomenta equidad digital.</li>
+                </ul>
+            </div>
+
+            <div class="subnodo">
+                <h3>🧑‍💻 Código Abierto / Software Libre</h3>
+                <ul>
+                    <li>💡 Conocimiento compartido y colaboración global.</li>
+                    <li>🛠️ Transparencia e innovación cooperativa.</li>
+                    <li>🌱 Ejemplos: Linux, Firefox, Moodle.</li>
+                </ul>
+            </div>
+
+            <div class="subnodo">
+                <h3>🔓 Libertad de Información</h3>
+                <ul>
+                    <li>🗞️ Acceso libre al conocimiento público.</li>
+                    <li>⚠️ Promueve responsabilidad y protección de datos.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Servicios -->
+        <div class="nodo">
+            <h2>💼 Servicios que Ofrece el Internet</h2>
+            <div class="subnodo">
+                <h3>🌎 World Wide Web (WWW)</h3>
+                <ul>
+                    <li>🔗 Red de documentos interconectados.</li>
+                    <li>💻 Tecnologías base: HTML, CSS, JavaScript.</li>
+                    <li>🏫 Espacio clave para aprendizaje e investigación.</li>
+                </ul>
+            </div>
+
+            <div class="subnodo">
+                <h3>✉️ Correo Electrónico</h3>
+                <ul>
+                    <li>📤 Comunicación formal y asincrónica.</li>
+                    <li>🔐 Protocolos: SMTP, POP3, IMAP.</li>
+                    <li>📬 Uso educativo y corporativo.</li>
+                </ul>
+            </div>
+
+            <div class="subnodo">
+                <h3>👥 Redes Sociales</h3>
+                <ul>
+                    <li>🗣️ Construcción de comunidades y aprendizaje social.</li>
+                    <li>📚 Ejemplos: Facebook, LinkedIn, X (Twitter).</li>
+                </ul>
+            </div>
+
+            <div class="subnodo">
+                <h3>☁️ Computación en la Nube</h3>
+                <ul>
+                    <li>🧮 Almacenamiento y procesamiento remoto.</li>
+                    <li>💼 Modelos: IaaS, PaaS, SaaS.</li>
+                    <li>🔄 Colaboración y acceso global.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 | Universidad Abierta Para Adultos (UAPA) — Maestría en Tecnología Educativa
+    </footer>
+
+</body>
+
+</html>
